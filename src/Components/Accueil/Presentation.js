@@ -7,7 +7,7 @@ const Presentation = (prop) => {
     return (
 
         <div className="presentation">
-            <Col className="titre" xs='12' style={{ borderBottom: "solid 2px #005aab", margin: '20px 0' }}>
+            <Col className="titre" xs='12'>
                 <h2 className='title'> PLUMBER <b>FRANCE & LUXEMBOURG</b> </h2>
                 <p className="intro">
                     Vous recherchez un spécialiste du second œuvre pour votre appartement, votre maison ou vos locaux professionnels situés en France ou au Luxembourg ? Faites appel à PLUMBER, entreprise experte des travaux de parachèvement : plafonnage, cloisonnage, pose de planchers et de menuiseries intérieures ou encore peintures.

@@ -272,6 +272,11 @@ a{
   left: 7.5%;
 }
 
+.titre {
+  border-bottom: solid 2px #25fde9;
+  margin: 20px 0
+}
+
 .sticky-nav {
   z-index: 16;
   position: sticky;
