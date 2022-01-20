@@ -11,7 +11,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [showMenu, setShowMenu] = useState('nav-menu nav-menu-hidden');
   const [isDesktop, setDesktop] = useState(window.innerWidth > 1100);
-  const [toggleLight, setToggleLight] = useState(localStorage.getItem('light'))
+  const [toggleLight, setToggleLight] = useState(localStorage.getItem('light') ?? "dark")
 
   let toggle_cover = toggleLight === undefined || 'light' ? " light_cover " : " dark_cover "
 
