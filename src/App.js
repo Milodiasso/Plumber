@@ -78,7 +78,7 @@ function App() {
       </div>
       <div className={"menu sticky-nav " + toggleLight}>
         <div className="logo" >
-          <a href="/"><img src='/assets/plumber_1.png' alt="logo_plaster" width="120px" /></a>
+          <a href="/"><img src='/assets/plumber_logo2.png' alt="logo_plaster" width="120px" /></a>
         </div>
         <div className={"trigger " + toggleLight + toggle_cover} onClick={handleLight}>
           <span className={"btn_btn "}></span>
